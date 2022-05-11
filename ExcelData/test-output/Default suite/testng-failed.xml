@@ -6,7 +6,7 @@
       <class name="LoginData.Data_login">
         <methods>
           <include name="invokeBrowser"/>
-          <include name="LoginData" invocation-numbers="0 1"/>
+          <include name="LoginData" invocation-numbers="0 3"/>
         </methods>
       </class> <!-- LoginData.Data_login -->
     </classes>

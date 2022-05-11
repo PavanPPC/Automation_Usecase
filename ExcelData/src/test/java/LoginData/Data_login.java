@@ -32,7 +32,7 @@ public class Data_login {
 	
 	@BeforeMethod
 	public void invokeBrowser() {
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\pavan\\Downloads\\drive\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");
 		
 		driver =new ChromeDriver();
 		driver.manage().window();
